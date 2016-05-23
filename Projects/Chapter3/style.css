@@ -1,0 +1,15 @@
+body {
+	background:: lightcayn;
+	width: 800px;
+	margin: auto;
+	color: #ff0000;
+}
+h1{
+	color: maroon;
+	text-align: center;
+}
+p{
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}

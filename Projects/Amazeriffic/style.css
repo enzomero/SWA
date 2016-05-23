@@ -1,0 +1,27 @@
+body {
+	background:: lightcayn;
+	width: 800px;
+	margin: auto;
+	color: #ff0000;
+	font-size: 100%;
+}
+h1{
+	color: maroon;
+	text-align: center;
+	font-family: 'Denk One', sans-serif;
+	font-size: xx-large;
+}
+h2 {
+	font-size: x-large;
+}
+.important {
+	font-size: larger;
+}
+.onePointTwo {
+	font-size: 1.2em;
+}
+p{
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}
