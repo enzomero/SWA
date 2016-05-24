@@ -1,27 +1,66 @@
 body {
-	background:: lightcayn;
-	width: 800px;
-	margin: auto;
-	color: #ff0000;
-	font-size: 100%;
+	font-family: 'Droid Sans';
+	min-width: 885px;
+	max-width: 2560px;
+	max-height: 1760px;
+	line-height: 1.5em;
 }
-h1{
-	color: maroon;
-	text-align: center;
-	font-family: 'Denk One', sans-serif;
-	font-size: xx-large;
+header {
+	min-height: 100px;
+	background: white;
+	font-size: 1.5em;
+	margin-top: 20px;
 }
-h2 {
-	font-size: x-large;
+main {
+	min-height: 500px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 100px;
 }
-.important {
-	font-size: larger;
+footer {
+	min-height: 200px;
+	background: #f9e933;
 }
-.onePointTwo {
-	font-size: 1.2em;
+.right {
+	float: right;
+	width: 400px;
 }
-p{
-	color: gray;
-	border: 1px solid gray;
-	padding: 10px;
+.left {
+	float: left;
+	width: 1000px;
+	margin-left: 10px;
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+h1 {
+	font-family: 'Ubuntu';
+	font-size: 3em;
+	font-style: italic;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Ubuntu';
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+h3{
+	font-family: 'Ubuntu';
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+h4{
+	font-family: 'Ubuntu';
+	line-height: 1.5em;
+}
+h5{
+	margin-top: 20px;
+	line-height: 1.5em;
 }
