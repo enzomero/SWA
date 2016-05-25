@@ -4,31 +4,32 @@ body {
 	max-width: 2560px;
 	max-height: 1760px;
 	line-height: 1.5em;
+	background: white;
 }
 header {
 	min-height: 100px;
-	background: white;
 	font-size: 1.5em;
 	margin-top: 20px;
 }
 main {
-	min-height: 500px;
-	background: white;
-	margin-top: 20px;
+	min-height: 485px;
 	margin-left: 100px;
+	line-height: 2em;
 }
 footer {
 	min-height: 200px;
-	background: #f9e933;
+	background: lightgreen;
 }
 .right {
 	float: right;
 	width: 400px;
+	margin-top: 20px;
 }
 .left {
 	float: left;
 	width: 1000px;
 	margin-left: 10px;
+	margin-top: 20px;
 }
 a {
 	color: red;
@@ -38,29 +39,19 @@ a:hover {
 	color: blue;
 	text-decoration: underline;
 }
-h1 {
+h1, h2, h3, h4 ,h5 {
 	font-family: 'Ubuntu';
+}
+
+h1 {	
 	font-size: 3em;
 	font-style: italic;
-	line-height: 1.5em;
 }
-h2{
-	font-family: 'Ubuntu';
+h2{	
 	font-size: 2em;
 	font-weight: bold;
-	line-height: 1.5em;
 }
-h3{
-	font-family: 'Ubuntu';
+h3{	
 	font-size: 1.5em;
 	font-weight: bold;
-	line-height: 1.5em;
-}
-h4{
-	font-family: 'Ubuntu';
-	line-height: 1.5em;
-}
-h5{
-	margin-top: 20px;
-	line-height: 1.5em;
 }
