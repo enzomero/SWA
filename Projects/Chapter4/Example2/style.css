@@ -1,10 +1,9 @@
 body {
 	font-family: "Ubuntu";
-	min-width: 500px;
+	min-width: 320px;
 	max-width: 2560px;
-	max-height: 1695px;
+	max-height: 480px;
 	text-indent: 10px;
-	padding: 10px;
 }
 header {
 	overflow: auto;
@@ -19,30 +18,32 @@ main {
 }
 footer {
 	overflow: auto;
-	height: 300px;
 	border-top: 3px solid black;
+	line-height: 3em;s
 }
 .left {
 	float: left;
-	margin-left: 10px;
 }
 .right {
-	width: 436px;
+	width: 320px;
 	float: right;
 }
 .right p:nth-child(odd)  {
-	background: grey;
+	background: lightgrey;
 }
 .right p:nth-child(even)  {
 	background: lavender;
 }
 h1{
 	font-size: 3em;
+	text-align: center;
 }
 h2 {
 	font-size: 1.5em;
+	text-align: center;
 }
 h3 {
 	font-size: 1.2em;
 	margin-top: 10px;
+	text-align: center;
 }
