@@ -31,6 +31,24 @@ footer {
 	margin-left: 10px;
 	margin-top: 20px;
 }
+.tabs {
+	overflow: auto;
+}
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 4px; 
+}
+.tabs a span.active {
+	background: #eee;
+}
+.content {
+	overflow: auto;
+}
 a {
 	color: red;
 	text-decoration: none;

@@ -1,0 +1,21 @@
+Жанр:
+Киберпанк?
+
+Заготовки:
+ККи или Сессия?
+
+Формат:
+1 на 1
+пока есть кем заменить.
+
+Атрибуты:
+Str - dmg, dmgR
+Dxt - acr, spd
+Stm - hp, ctrR
+Int - ctlp(chanse to level up)
+StW - ctbl(chanse to be live)
+
+Доп модификаторы:
+Раса
+Возраст?
+прошлое

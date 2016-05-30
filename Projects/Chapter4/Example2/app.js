@@ -1,6 +1,8 @@
+var $new_comment;
+var $old_comment;
+
 var main = function () {
 	"use strict";
-	var $new_comment;
 	$(".left button").on("click", function (event) {
 		add_comment();
 	});
@@ -9,6 +11,9 @@ var main = function () {
 			add_comment();
 		}
 	});
+	$("main section.right p").on("click", function () {
+			window.alert("Are you surios!?");
+		});
 };
 
 var add_comment = function () {		
@@ -17,7 +22,9 @@ var add_comment = function () {
 		$new_comment.hide();
 		$("main section.right").append($new_comment);
 		$new_comment.fadeIn();
+		$old_comment = $("main section.right p:first-child");
 		$("main section.left input").val("");
+		$("main section.right p:first-child").remove();
 	}
 }
 $(document).ready(main);
